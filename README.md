@@ -21,7 +21,6 @@ Route | Method | Description
 | /api/v1/linens:/linenid | GET | Captures all of the Linens Data by linenid number | 
 | /api/v1/events | GET | Captures all of the Events Data | 
 | /api/v1/events:/eventid | GET | Captures all of the Events Data by eventid number | 
-
 | /api/v1/linens | POST | Add new linen data (HouseName, RoomNumber, Guests, LinenType) | 
 | /api/v1/events | POST | Add new event data(Data Category, Location & Message) | 
 | /api/v1/events:/eventid | PUT | Updates the DateCategory, Location and or Message by eventid| 

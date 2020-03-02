@@ -25,7 +25,7 @@ https://familyhouse.it.pointpark.edu:3000/api/v1/
 
 *List a single entry selected at random*
 
-### Parameters
+### Rest End Points
 Route | Method | Description
 | --- | --- | --- 
 | /api/v1/faq | GET| Captures all of the FAQ Data | 
@@ -70,4 +70,8 @@ Install Packages:
 ```
 
 Posting a Message in PostMan:
+- URL to send a Post Message as per Rest End Points
+- JSON Message based on what is able to be sent to the route
+- Callback Message from the service that the message was accepted
 ![Linens Post Example](https://github.com/pointparkuniversity/familyhouseapi/blob/master/LinenPostMessage.png)
+![Linens Output Example](https://github.com/pointparkuniversity/familyhouseapi/blob/master/LinensServiceOutput.png)

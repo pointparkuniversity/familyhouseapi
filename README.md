@@ -33,6 +33,10 @@ Route | Method | Description
 
 Create Environment:
 
-```ruby
-gem 'rlyft', require 'lyft'
+```
+Create Schema 'CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
+    [create_specification] ...'
+```
+```
+Execute Table Creation Script 'CreateDatabaseEnvironment.sql', require 'lyft'
 ```

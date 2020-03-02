@@ -8,11 +8,23 @@ This service supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/C
 https://familyhouse.it.pointpark.edu:3000/api/v1/
 
 # Services
-## **GET** /entries
+## **GET** /
 
-*List all entries currently cataloged in the project*
+*List a single entry selected at random*
 
 ### Parameters
 Parameter | Type | Data Type | Description | Required
 | --- | --- | --- | --- | --- |
 | faq | api/v1 | string | ALL or by ID) | No |
+| linens | api/v1 | string | ALL or by ID) | No |
+| events | api/v1 | string | ALL or by ID) | No |
+
+## **POST** /
+
+*List a single entry selected at random*
+
+### Parameters
+Parameter | Type | Data Type | Description | Required
+| --- | --- | --- | --- | --- |
+| linens | api/v1 | string | ALL or by ID) | No |
+| events | api/v1 | string | ALL or by ID) | No |

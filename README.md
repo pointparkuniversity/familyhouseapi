@@ -3,6 +3,19 @@ Welcome to the official public API for the Family House Mobile App project!
 
 This service supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) and requires no authentication to use. All responses are sent over HTTPS as well.
 
+## Current Version
+1.0
+
+## Libraries used
+
+#### [Libraries](https://www.npmjs.com/)
+```
+JavaScript
+MySQL as the database environment
+Express
+Body-Parser
+Rest-Api
+```
 
 ## Base URL
 https://familyhouse.it.pointpark.edu:3000/api/v1/

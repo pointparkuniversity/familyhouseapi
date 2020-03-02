@@ -38,5 +38,12 @@ Create Schema 'CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
     [create_specification] ...'
 ```
 ```
-Execute Table Creation Script 'CreateDatabaseEnvironment.sql', require 'lyft'
+Execute Table Creation Script 'CreateDatabaseEnvironment.sql'
+```
+Create Node Environment:
+
+```
+ 'npm install nvm'
+ 'npm install npm'
+ 'npm install node.js'
 ```

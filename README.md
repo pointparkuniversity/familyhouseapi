@@ -68,3 +68,6 @@ Install Packages:
  'npm install rest-api' (API Framework for NodeJS)
  'npm install mysql' (Driver for mysql)
 ```
+
+Posting a Message in PostMan:
+![Linens Post Example](https://github.com/pointparkuniversity/familyhouseapi/blob/master/LinenPostMessage.png)

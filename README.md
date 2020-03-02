@@ -28,3 +28,11 @@ Parameter | Type | Data Type | Description | Required
 | --- | --- | --- | --- | --- |
 | linens | api/v1 | string | ALL or by ID) | No |
 | events | api/v1 | string | ALL or by ID) | No |
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'rlyft', require 'lyft'
+```

@@ -41,9 +41,17 @@ Create Schema 'CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
 Execute Table Creation Script 'CreateDatabaseEnvironment.sql'
 ```
 Create Node Environment:
-
+Use sudo if on mac or linux
 ```
- 'npm install nvm'
- 'npm install npm'
- 'npm install node.js'
+ 'npm install node.js' (Installs Node JS Environment)
+ 'npm install nvm' (Installs Node Version Manager)
+ 'npm install npm' (Installs Package Manager)
+ 'npm init -y' (Adds JSON File)
+```
+Install Packages:
+```
+ 'npm install express --save' (Web Framework)
+ 'npm install body-parser' (request body for passing of params to service)
+ 'npm install rest-api' (API Framework for NodeJS)
+ 'npm install mysql' (Driver for mysql)
 ```

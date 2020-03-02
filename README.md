@@ -6,6 +6,10 @@ This service supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/C
 ## Current Version
 1.0
 
+## Software Used
+Utilized PostMan for both get, post and put calls.
+https://www.postman.com/
+
 ## Libraries used
 
 #### [Libraries](https://www.npmjs.com/)

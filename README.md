@@ -31,7 +31,7 @@ Parameter | Type | Data Type | Description | Required
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Create Environment:
 
 ```ruby
 gem 'rlyft', require 'lyft'
